@@ -1,5 +1,5 @@
 ## House Price Prediction
-![Competition Image]()
+![Competition Image](./House Price Features.png)
 
 ### Competition Description
 > 본 대회는 구글 코리아가 후원하고, 캐글 코리아(비영리 페이스북 온라인 커뮤니티)가 진행하는 데이터 사이언스 대회입니다. 

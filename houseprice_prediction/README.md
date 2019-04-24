@@ -17,11 +17,12 @@
 
 ### Score
 - Baseline model을 기준으로 feature importance를 뽑았을 때
-| Feature Engineering | PB | LB  |
+
+| Feature Engineering | PB | LB |
 | ------------- |:-------------:| -----:|
 | Base Features | 109341.60599 | 110964.02797 |
 | + Distance | 107763.85539 | 111758.13889 |
 | + PCA + K-means | 109459.65838 | 108986.88078 |
-| + zipcode grouping with dummy | 102080.97481 | 110991.78514 |
+| + zipcode grouping | 102080.97481 | 110991.78514 |
 
 ### 대회를 통해 얻는 것

@@ -24,6 +24,10 @@
 | + Distance | 107763.85539 | 111758.13889 | 142/415(34%) | 131/415(31%) |
 | + PCA + K-means | 109459.65838 | 108986.88078 | 195/415(46%) | 62/415(15%) |
 | + zipcode grouping | 102080.97481 | 110991.78514 | 32/415(7%) | 118/415(28%) |
+  * Distance : 가장 비싼 집에서 각 데이터까지의 거리, lat/long을 좌표로 하여 Norm을 계산
+  * PCA : correlation이 높았던 변수 sqft_living, sqft_above, sqft_basement를 2차원으로 축소하였다.
+  * K-means : lat/long을 기준으로 32개 지점으로 데이터를 그룹화하였다.
+  * zipcode grouping : 5자리로 구성된 zipcode를 분해하여 3번째자리, 4번째자리...등으로 그룹화하였다. 
 
 ### 대회를 통해 얻는 것 / 아쉬운점
 - Public Score에 맞춰 Feature Engineering을 하게 되면 Public 20%에 overfitting되어 Private에서 미끄러진다.

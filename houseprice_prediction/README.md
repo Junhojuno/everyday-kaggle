@@ -18,11 +18,16 @@
 ### Score
 - Baseline model을 기준으로 feature importance를 뽑았을 때
 
-| Feature Engineering | PB | LB |
-| ------------- |:-------------:| -----:|
-| Base Features | 109341.60599 | 110964.02797 |
-| + Distance | 107763.85539 | 111758.13889 |
-| + PCA + K-means | 109459.65838 | 108986.88078 |
-| + zipcode grouping | 102080.97481 | 110991.78514 |
+| Feature Engineering | PB | LB | PB Rank | LB Rank |
+| ------------- |:-------------:| -----:| ---- |
+| Base Features | 109341.60599 | 110964.02797 | 194/415(45%) | 115/415(27%) |
+| + Distance | 107763.85539 | 111758.13889 | 142/415(34%) | 131/415(31%) |
+| + PCA + K-means | 109459.65838 | 108986.88078 | 195/415(46%) | 62/415(15%) |
+| + zipcode grouping | 102080.97481 | 110991.78514 | 32/415(7%) | 118/415(28%) |
 
-### 대회를 통해 얻는 것
+### 대회를 통해 얻는 것 / 아쉬운점
+- Public Score에 맞춰 Feature Engineering을 하게 되면 Public 20%에 overfitting되어 Private에서 미끄러진다.
+- EDA를 진행하기전 전체적인 Flow를 미리 한번 그려보고 진행하는 것이 생각을 정리하고 방향잡는데 도움이 된다.
+- 다른 사람들의 Kernel을 참고하는 것이 중요하다. 어떤 Feature를 살펴보았는지, 어떠한 이유로 feature로 채택했는지 등등
+- 대부분의 Kernel에서 Model 여러개를 적절히 섞는 Model Ensemble을 많이 사용하였다. 
+- Motivation을 통해 가설을 세우고 성능을 통해 검증하는 과정이 조금 부족했던 것 같다.

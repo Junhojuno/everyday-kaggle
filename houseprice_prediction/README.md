@@ -10,7 +10,7 @@
 
 ### Evaluation
 - Root Mean Squared Error
-![RMSE]()
+![RMSE](https://github.com/Junhojuno/everyday-kaggle/blob/master/houseprice_prediction/rmse.PNG?raw=true)
 
 ### 사용한 모델
 - LigthGBM

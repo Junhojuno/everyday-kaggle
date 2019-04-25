@@ -1,4 +1,6 @@
 # Word Embedding
+- 관련 내용은 [ratsgo' blog](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)를 참고하였다.
+
 | Keywords |
 | -------- |
 | Embedding |

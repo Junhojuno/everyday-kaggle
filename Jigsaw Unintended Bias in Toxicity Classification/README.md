@@ -13,5 +13,3 @@ and you'll help the Conversation AI team, and the entire industry,
 build models that work well for a wide range of conversations.
 ```
 - Unintended Bias를 잡는 것이 중요하다!
-
-### Difference with the former competition

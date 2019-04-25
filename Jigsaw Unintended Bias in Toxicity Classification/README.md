@@ -22,3 +22,5 @@ build models that work well for a wide range of conversations.
 |:-----:|:----:|:----:|
 |   |   |   |
 |   |   |   |
+
+### 대회를 통해 얻은 

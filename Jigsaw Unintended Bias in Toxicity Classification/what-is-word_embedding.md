@@ -36,6 +36,6 @@
 - GloVe가 보존하려는 정보는 단어 동시 등장 여부입니다. GloVe로 임베딩된 단어 벡터끼리의 내적은 동시 등장확률의 로그값과 같다.
 - Word2Vec이 임베딩된 두 단어벡터의 내적이 코사인 유사도라면 GloVe는 동시 등장 확률인 셈이다.
 - 위 설명이 직관적으로 와닿지는 않는다.ㅠㅠ
-- 자세한 설명은 ![여기](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)를 참고하자
+- 자세한 설명은 [여기](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)를 참고하자
 - FastText는 원래 단어를 부분단어(subword)의 벡터들로 표현한다는 점을 제외하고는 Word2Vec과 거의 유사하다.
 - FastText는 Noise가 많은 Corpus에서 강점을 보인다.
